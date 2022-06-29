@@ -1,0 +1,473 @@
+
+
+.main-header .logo {
+    height: 60px;
+}
+
+.sidebar {
+    margin-top : 10px;
+}
+
+
+.content-header > .breadcrumb {
+    position: relative;
+    margin-top: 15px;
+    top: 0;
+    right: 0;
+    float: none;
+    background  : #e9ecf1;
+    padding-left: 10px;
+    border : solid 1px grey;
+    border-radius: 7px;
+}
+
+
+.boxContentDalamPBB {
+    margin-top : 30px;
+    /* border: solid 1px white; */
+    border-radius : 20px;
+    background-color:  rgba(235, 42, 42, 0.781);
+    width : 75%;
+    color: white;
+    min-height : 250px;
+} 
+
+
+
+.boxContentDalamPBB:hover , .boxContentDalamPBB2:hover {
+    cursor : pointer;
+    background-color: rgba(156, 48, 48, 0.295);
+}
+
+.boxContentDalamPBB2 {
+    margin-top : 30px;  
+    border: solid 1px rgba(250, 85, 85, 0.747);
+    border-radius : 20px;
+    background-color:  rgba(240, 240, 243, 0.521);
+    width : 75%;
+    min-height : 250px;
+} 
+
+.boxMiniform {
+    margin-top : 20px;
+
+}
+
+
+
+
+.isiBoxContent {
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+.garisPembatas {
+    border : solid 2px  rgb(221, 219, 219);
+}
+
+.avatarBox {
+    width : 80px;
+    height : 80px;
+    /* color : rgba(185, 47, 151, 0.897); */
+}
+
+.avatarBox2 {
+    width : 80px;
+    height : 80px;
+    border-radius : 50%;
+
+}
+
+.top-line {
+    border : solid 2px rgb(190, 147, 147);
+    margin-top: 10px;
+
+}
+
+.label-form {
+    text-align : 'center';
+    margin-left: '110px';
+}
+
+.fahead {
+    text-align : center;
+  
+}
+
+.tokpedsearch {
+    margin-top : auto;
+    min-height : 330px;
+    border-bottom: solid 2px gray;
+    
+}
+
+#renderError {
+
+    width : 100%;
+    border-radius : 5px;
+    /* background-color : #d73925; */
+    background-color :red;
+    margin-top: 15px;
+    margin-bottom : 15px;
+    padding : 5px;
+    text-align : center;
+    color : white;
+    opacity : 0.7;
+    box-shadow: 2px 2px 10px  black;
+}
+
+
+#filterDaerah {
+    width : auto;
+    border : solid 2px blue;
+}
+
+
+.submitBtn {
+    width: 100px;
+    min-height: 36px;
+    border-radius: 10px;
+    background-color : rgba(69, 63, 150, 0.822);
+    padding : 5px;
+    margin-top : 5px;
+    color : white;
+    /* box-shadow: 4px 4px 10px black; */
+
+}
+
+
+.submitBtn:hover , .deleteBtn:hover , .editBtn:hover {
+    background-color : rgba(64, 73, 148, 0.521);
+ 
+}
+
+
+.deleteBtn {
+    border-radius: 5px;
+    background-color : rgb(153, 55, 42);
+    padding : 5px;
+    margin-top : 5px;
+    color : white;
+}
+
+
+.editBtn {
+    border-radius: 5px;
+    background-color : rgba(38, 146, 65, 0.856);
+    padding : 5px;
+    margin-top : 5px;
+    color : white;
+}
+
+
+#error {
+    opacity : 0.8;
+
+}
+
+
+.enu {
+    
+    border: solid 2px black;
+    display: inline-block;
+    
+}
+
+
+.box1 {
+
+    padding-bottom : 20px;
+    box-shadow: 2px 2px 7px  black;
+}
+
+
+
+/* ======================================================*/
+
+/* Form styling */
+
+.tableInput {
+    width : 80%;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+
+
+.tdLabel {
+    padding-bottom: 10px;
+    font-weight:bold;
+    font-size:15px;
+
+
+}
+
+ .tdplus {
+    padding-top:15px;
+}
+
+#tgl_spop {
+    border : 1px solid #ccc;
+    width : 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:#555;
+    background-color:#fff;
+    background-image: none;
+    z-index:0;
+
+}
+
+#kelurahan {
+    z-index:2;
+}
+
+/* ========================================================*/
+/* tangkapan */
+.labelTangkapan {
+    margin-top: 7px;
+}
+
+.inputTangkapan {
+    margin-bottom : 10px;
+}
+
+.inputTangkapan1 {
+    margin-bottom : 15px;
+}
+
+.btnTangkap  {
+    border-radius: 8px;
+    margin-top : 20px;
+    margin-left : 15px;
+}
+
+.jarakInput {
+    width: 100%;
+    height: 60px;
+    display: block;
+}
+
+.btnFDM {
+    margin-right : 10px;
+}
+
+/* ============================================================= */
+/* nyobaa CSS  */
+
+
+.containerCSS {
+    padding : 40px;
+}
+
+.wrapperCSS {
+    width : 100%;
+    
+    border : solid 2px red;
+    padding : 30px;
+    box-sizing : border-box; 
+}
+
+.wrapperCSS::after {
+    content : 'tess---';
+    display : block;
+    clear: both;
+}
+
+/* untuk ::after selector jika elemen yg diselect merupakan div pembungkus maka elemen yg ditambahkan adalah elemen yang didalamnya */
+
+.wrapperCSS div {
+    width : 100px;
+    height : 100px;
+    background-color: blue;
+    float : left;
+    margin : 10px;
+}
+
+/* dibawah ini make flex  */
+
+.wrapperCSSFlex {
+    width : 100%;
+    height : 250px;
+    display : flex;
+    border : solid 2px red;
+    /* padding : 30px; */
+    box-sizing : border-box; 
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:center;
+    /* align-content: center; hanya berfungsi jika content ada lebih dari 1 baris (termasuk jika menggunakan flex-wrap)  */
+}
+
+
+
+.wrapperCSSFlex div {
+    /* width : 100px;
+    height : 100px; */
+    background-color: yellow;
+    margin : 10px;
+    flex : 1;  
+}
+
+
+.wrapperCSSFlex div.flex2 {
+    flex : 2;
+    align-self:stretch;
+} 
+
+/* supaya bisa diprioritaskan styling nya buat nimpa flex:1 di wrapper maka gunakan selector yg spesifik jangan langsung tulis classnamenya (flex2) */
+
+
+/* ====================================================================== */
+
+.kotakluar {
+    border-radius : 40px;
+}
+
+/* =============================== CSS untuk Kelas Pajak ====================     */
+
+input#tgl_kelas {
+    width: 100%;
+    height : 40px;
+    margin-top : 5px;
+}
+
+.dataTableRow {
+    width: 100px;
+    word-wrap: break-word;
+}
+
+
+/* ========================================== CSS untuk persyaratan ============================== */
+
+.persyaratan-outer {
+    padding: 45px 35px;
+}
+
+.persyaratan-box {
+    border-radius: 15px;
+}
+
+.persyaratan-inner {
+    padding: 20px 60px; 
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px blue; */
+}
+
+
+.rounded-avatar {
+    /* text-align: center; */
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.avatar1 {
+    background-color: rgba(83, 83, 206, 0.747);
+}
+
+.avatar2 {
+    background-color: #9090f7a8;
+}
+
+.avatar3 {
+    background-color: #5959f3cc;
+}
+
+.header-text-title {
+    text-align: center;
+    margin: 0;
+    font-family: 'Quicksand' sans-serif;
+    letter-spacing: 2px;
+    color: rgba(103, 103, 104, 0.685);
+}
+
+.header-text-subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px 5px;
+    width: auto;
+    /* height: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    /* background-color: #8383eed8; */
+    border: solid 2px #8383eed8;
+    color: #8383eed8; /* bisa sekaligus buat ngasi style warna fontawesome dan warna font di dalam element ini */
+}
+
+.filter-btn:hover {
+    background-color: #8e8ef583;
+    color: white;
+}
+
+.filter-false {
+    /* background-color: #f55757d8 !important; */
+    border: solid 2px #f55757d8 !important;
+    color: #f55757d8;
+}
+
+.filter-false:hover {
+    background-color: #f38989d8 !important;
+    color: white;
+}
+
+.persyaratan-btn {
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Quicksand' sans-serif;
+}
+
+.button-create {
+    text-align: center;
+    padding: 10px 20px;
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #8383eef3;
+    color:white;
+    cursor: pointer;
+
+}
+
+/* ===============================    ini CSS untuk Admin Goceng =================================== */
+
+
+.boxDetailST {
+    width: 550px;
+    min-height: 200px;
+}
+
+.tableST {
+    width: 100%;
+    /* border: solid 1px black; */
+    text-align: left;
+    border-collapse: separate;
+    border-spacing:1em;
+
+}
+
+.tableST > tbody > tr {
+    padding: 30px;
+    margin-top: 20px;
+}
